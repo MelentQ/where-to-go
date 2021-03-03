@@ -1,9 +1,30 @@
 .header__menu-link {
+  position: relative;
+
   color: #000000;
   text-decoration: none;
   transition: opacity 0.3s ease;
 }
 
 .header__menu-link:hover {
+  opacity: 0.8;
+}
+
+.header__menu-link:after {
+  content: '';
+
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+
+  width: 100%;
+  height: 1px;
+
+  background-color: #000000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.header__menu-link:hover:after {
   opacity: 0.8;
 }
