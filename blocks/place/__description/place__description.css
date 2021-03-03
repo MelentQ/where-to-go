@@ -1,0 +1,9 @@
+.place__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  box-sizing: border-box;
+  padding: 60px 152px 72px 60px;
+  width: 50%;
+}
