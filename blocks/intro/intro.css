@@ -1,0 +1,8 @@
+.intro{
+    max-width: calc(100% - 58px*2 - 78px);
+    margin: 58px auto 0;
+    padding-right: 78px;
+
+    display: grid;
+    grid-template-columns: 1fr 309px;
+}
