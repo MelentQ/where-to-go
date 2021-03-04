@@ -7,6 +7,10 @@
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/_narrow/section_narrow.css);
 
+@import url(../blocks/title/title.css);
+
+@import url(../blocks/subtitle/subtitle.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__list/header__list.css);
@@ -25,6 +29,14 @@
 @import url(../blocks/place/__description/place__description.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__title/quotes__title.css);
+@import url(../blocks/quotes/__subtitle/quotes__subtitle.css);
+@import url(../blocks/blockquotes/blockquotes.css);
+@import url(../blocks/blockquote/blockquote.css);
+@import url(../blocks/blockquote/__title/blockquote__title.css);
+@import url(../blocks/blockquote/__subtile/blockquote__subtitle.css);
 
 /* Шаблон */
 /* @import url(../blocks/); */
