@@ -1,0 +1,5 @@
+.intro__text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
