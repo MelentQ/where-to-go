@@ -1,6 +1,6 @@
 .media__title {
   position: absolute;
-  top: 112px;
+  top: 20.62%;
   left: 58px;
 
   margin: 0;
@@ -9,4 +9,24 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+  .media__title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .media__title {
+    left: 36px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .media__title {
+    left: 24px;
+    font-size: 14px;
+  }
 }
