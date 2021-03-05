@@ -20,6 +20,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__image-container/intro__image-container.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
@@ -39,10 +40,12 @@
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__input-form/form__input-form.css);
 @import url(../blocks/form/__text/form__text.css);
 @import url(../blocks/form/__textarea/form__textarea.css);
 @import url(../blocks/form/__text-input/form__text-input.css);
 @import url(../blocks/form/__submit-button/form__submit-button.css);
+@import url(../blocks/form/__image-container/form__image-container.css);
 @import url(../blocks/form/__image/form__image.css);
 
 @import url(../blocks/media/media.css);

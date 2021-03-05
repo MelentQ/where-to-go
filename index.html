@@ -6,7 +6,7 @@
   <meta name="description" content="Проект о том, куда я поеду, как только можно будет поехать.">
   <meta name="keywords" content="граница коронавирус сидим дома и другие ключевые слова">
 
-  <title>Document</title>
+  <title>Куда я поеду</title>
 
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./pages/index.css">
@@ -37,12 +37,12 @@
         <h1 class="section__title intro__title">Куда я поеду</h1>
         <p class="section__subtitle intro__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
       </div>
-      <div class="intro__image"></div>
+      <img src="./images/intro-image.jpeg" class="intro__image" alt="Здесь должна быть красивая картинка"></img>
     </section> 
 
     <!-- ===
     places -->
-    <!-- 
+  
     <section class="section" id="places">
       <ul class="places">
 
@@ -129,20 +129,24 @@
     <!-- ===
     form -->
     
-   <!-- 
+    
     <section class="section form" id="form">
       <div class="form__text">
         <h2 class="form__title">Так куда же я поеду?</h2>
-        <input type="text" class="form__text-input" placeholder="Я поеду ...">
-        <textarea class="form__textarea" placeholder="Потому что я ..."></textarea>
-        <button type="submit" class="form__submit-button">Поехали уже куда-нибудь!</button>
+        <form class="form__input-form">
+          <input type="text" name="place" class="form__text-input" placeholder="Я поеду ..." required>
+          <textarea class="form__textarea" name="description" placeholder="Потому что я ..." required></textarea>
+          <input type="submit" value="Поехали уже куда-нибудь!" class="form__submit-button">
+        </form>
       </div>
-      <div class="form__image"></div>
+      <div class="form__image-container">
+        <img src="./images/airport-schedule.jpg" class="form__image" alt="Здесь должна быть красивая картинка"></img>
+      </div>
     </section>
 
     <!-- ===
     video -->
-    <!-- 
+
     <section class="section media" id="media">
       <h2 class="media__title">А пока что - всё ещё сидим дома!</h2>
       <video class="media__video" controls preload="metadata" poster="./video/video-poster.jpg">
@@ -160,7 +164,7 @@
   
   <!-- ===
   footer -->
-  <!-- 
+   
   <footer class="section footer">
     <p class="footer__copyright">&copy; 2021</p>
   </footer>

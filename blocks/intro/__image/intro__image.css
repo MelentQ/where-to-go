@@ -1,9 +1,6 @@
 .intro__image{
-    background-image: url(../../../images/intro-image.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 100%;
+    width: 309px;
+    height: 309px;
 }
 @media screen and (max-width: 543px){
     .intro__image{

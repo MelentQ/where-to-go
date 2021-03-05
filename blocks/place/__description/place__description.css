@@ -7,3 +7,15 @@
   padding: 60px 152px 72px 60px;
   width: 50%;
 }
+
+@media screen and (max-width:767px) {
+  .place__description {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:543px) {
+  .place__description {
+    padding: 30px 72px 30px 30px;
+  }
+}
