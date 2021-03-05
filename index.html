@@ -19,9 +19,9 @@
   <header class="section section_narrow header">
     <nav class="header__menu">
       <ul class="header__list">
-        <li class="header__menu-item"><a href="#" class="header__menu-link" target="_blank">Мечты</a></li>
-        <li class="header__menu-item"><a href="#" class="header__menu-link" target="_blank">Ожидания</a></li>
-        <li class="header__menu-item"><a href="#" class="header__menu-link" target="_blank">Реальность</a></li>
+        <li class="header__menu-item"><a href="#places" class="header__menu-link">Мечты</a></li>
+        <li class="header__menu-item"><a href="#form" class="header__menu-link">Ожидания</a></li>
+        <li class="header__menu-item"><a href="#media" class="header__menu-link">Реальность</a></li>
       </ul>
 
       <a href="#" class="header__menu-link" target="_blank">Пожаловаться</a>
@@ -30,19 +30,21 @@
 
   <main class="content">
 
-    <section class="intro">
+    <!-- ===
+    intro -->
+
+    <section class="section section_narrow intro">
       <div class="intro__text-area">
-        <h1 class="intro__title title">Куда я поеду</h1>
-        <p class="intro__subtitle subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
+        <h1 class="section__title intro__title">Куда я поеду</h1>
+        <p class="section__subtitle intro__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
       </div>
       <div class="intro__image"></div>
     </section> 
 
-
     <!-- ===
     places -->
 
-    <section class="section">
+    <section class="section" id="places">
       <ul class="places">
 
         <li class="place">
@@ -91,10 +93,14 @@
       </ul>
 
     </section>
+
+    <!-- ===
+    quotes -->
     
     <section class="quotes section_narrow section">
-      <h2 class="quotes__title title">люди</h2>
-      <p class="quotes__subtitle subtitle">Что говорят и говорили люди о путешествиях</p>
+      <h2 class="section__title quotes__title">люди</h2>
+      <p class="section__subtitle quotes__subtitle">Что говорят и говорили люди о путешествиях</p>
+
       <ul class="blockquotes">
 
         <li class="blockquote">
@@ -119,8 +125,11 @@
 
       </ul>
     </section>
+
+    <!-- ===
+    form -->
     
-    <section class="form">
+    <section class="form" id="form">
       <div class="form__text">
         <h2 class="form__title">Так куда же я поеду</h2>
         <input type="text" class="form__text-input">
@@ -133,7 +142,7 @@
     <!-- ===
     video -->
 
-    <section class="section media">
+    <section class="section media" id="media">
       <h2 class="media__title">А пока что - всё ещё сидим дома!</h2>
       <video class="media__video" controls preload="metadata" poster="./video/video-poster.jpg">
 
@@ -143,17 +152,17 @@
         <source src="./video/video.mp4" type="video/mp4">
     
         Ваш браузер не поддерживает встроенные видео :(
-    </video>
+      </video>
     </section>
 
   </main>
   
   <!-- ===
-    footer -->
+  footer -->
 
-    <footer class="section footer">
-      <p class="footer__copyright">&copy; 2021</p>
-    </footer>
+  <footer class="section footer">
+    <p class="footer__copyright">&copy; 2021</p>
+  </footer>
 
 </body>
 </html>
