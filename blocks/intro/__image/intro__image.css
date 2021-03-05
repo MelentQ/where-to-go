@@ -2,8 +2,8 @@
     width: 309px;
     height: 309px;
 }
-
 @media screen and (max-width: 543px){
     .intro__image{
-    margin-top: 15px;
+        margin-top: 15px;
+    }
 }
