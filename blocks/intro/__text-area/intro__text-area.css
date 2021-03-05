@@ -10,6 +10,7 @@
 @media screen and (max-width: 767px){
     .intro__text-area{
         padding-right: 0;
+        grid-row: 2/3;
     }
 }
 

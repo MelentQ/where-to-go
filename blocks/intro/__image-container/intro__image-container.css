@@ -10,5 +10,6 @@
     .intro__image-container {
         width: calc(100% + 24px*2);
         transform: translateX(-24px);
+        grid-row: 1/2;
     }
 }
