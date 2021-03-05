@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    box-sizing: border-box;
+    padding-right: 20px;
 }
+
 @media screen and (max-width: 413px){
     .intro__text-area{
         margin-bottom: 20px;

@@ -5,3 +5,13 @@
 .place:nth-child(2n) {
   flex-direction: row-reverse;
 }
+
+@media screen and (max-width:767px){
+  .place{
+    flex-direction: column;
+  }
+
+  .place:nth-child(2n) {
+    flex-direction: column;
+  }
+}
