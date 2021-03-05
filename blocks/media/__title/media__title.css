@@ -1,0 +1,12 @@
+.media__title {
+  position: absolute;
+  top: 112px;
+  left: 58px;
+
+  margin: 0;
+
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
