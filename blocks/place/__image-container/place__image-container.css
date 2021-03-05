@@ -9,3 +9,10 @@
 
   overflow: hidden;
 }
+
+@media screen and (max-width:767px){
+  .place__image-container {
+    padding-bottom: 83.4%;
+    width: 100%;
+  }
+}
