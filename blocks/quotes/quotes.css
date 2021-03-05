@@ -3,5 +3,6 @@
     flex-direction: column;
     justify-content: flex-start;
 
-    margin-top: 118px;
+    padding-top: 118px;
+    padding-bottom: 104px;
 }

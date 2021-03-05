@@ -32,10 +32,10 @@
 @import url(../blocks/quotes/quotes.css);
 @import url(../blocks/quotes/__title/quotes__title.css);
 @import url(../blocks/quotes/__subtitle/quotes__subtitle.css);
-@import url(../blocks/blockquotes/blockquotes.css);
-@import url(../blocks/blockquote/blockquote.css);
-@import url(../blocks/blockquote/__title/blockquote__title.css);
-@import url(../blocks/blockquote/__subtile/blockquote__subtitle.css);
+@import url(../blocks/quotes/__list/quotes__list.css);
+@import url(../blocks/quotes/__list-item/quotes__list-item.css);
+@import url(../blocks/quotes/__quote-author/quotes__quote-author.css);
+@import url(../blocks/quotes/__quote/quotes__quote.css);
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__title/form__title.css);

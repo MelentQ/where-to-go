@@ -2,7 +2,9 @@
   display: block;
 
   width: 100%;
-  height: auto;
+  height: 87%;
+
+  object-fit: cover;
 }
 
 .media__video:focus {
