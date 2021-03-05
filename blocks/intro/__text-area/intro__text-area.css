@@ -3,3 +3,8 @@
     flex-direction: column;
     justify-content: center;
 }
+@media screen and (max-width: 413px){
+    .intro__text-area{
+        margin-bottom: 20px;
+    }
+}
