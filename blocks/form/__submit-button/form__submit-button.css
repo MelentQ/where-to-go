@@ -1,0 +1,15 @@
+.form__submit-button{
+    max-width: 56%;
+
+    background-color: black;
+    color: white;
+
+    font-size: 12px;
+
+    display: flex;
+    align-self: flex-end;
+
+    border: 0;
+
+    padding: 8px 4px;
+}

@@ -1,0 +1,8 @@
+.form__text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 309px;
+    padding-left: 58px;
+}
