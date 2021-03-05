@@ -1,6 +1,8 @@
 .quotes__subtitle{
     margin-top:0;
     margin-bottom: 100px;
+    max-width: 348px;
+    font-size: 27px;
 }
 @media screen and (max-width: 733px){
     .quotes__subtitle{
