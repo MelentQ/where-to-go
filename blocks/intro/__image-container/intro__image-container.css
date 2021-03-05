@@ -1,4 +1,14 @@
 .intro__image-container{
-    max-height: 309px;
+    position: relative;
+
+    padding-bottom: 100%;
+
     overflow: hidden;
+}
+
+@media screen and (max-width: 767px){
+    .intro__image-container {
+        width: calc(100% + 24px*2);
+        transform: translateX(-24px);
+    }
 }

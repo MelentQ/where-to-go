@@ -7,6 +7,12 @@
     padding-right: 20px;
 }
 
+@media screen and (max-width: 767px){
+    .intro__text-area{
+        padding-right: 0;
+    }
+}
+
 @media screen and (max-width: 413px){
     .intro__text-area{
         margin-bottom: 20px;

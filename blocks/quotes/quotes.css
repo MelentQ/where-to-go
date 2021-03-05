@@ -6,3 +6,10 @@
     padding-top: 118px;
     padding-bottom: 104px;
 }
+
+@media screen and (max-width: 767px) {
+    .quotes {
+        padding-top: 64px;
+        padding-bottom: 52px;
+    }
+}

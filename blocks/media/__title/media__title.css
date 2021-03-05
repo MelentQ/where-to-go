@@ -13,13 +13,14 @@
 
 @media screen and (max-width: 767px) {
   .media__title {
+    left: 24px;
     font-size: 24px;
   }
 }
 
 @media screen and (max-width: 543px) {
   .media__title {
-    left: 36px;
+    left: 24px;
     font-size: 18px;
   }
 }
