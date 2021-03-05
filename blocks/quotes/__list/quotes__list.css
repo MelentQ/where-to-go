@@ -1,7 +1,7 @@
 .quotes__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 54px;
+  gap: 64px;
 
   list-style-type: none;
 
