@@ -26,5 +26,8 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
 /* Шаблон */
 /* @import url(../blocks/); */
