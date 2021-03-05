@@ -7,3 +7,18 @@
     display: grid;
     grid-template-columns: 1fr 309px;
 }
+@media screen and (max-width:900px){
+    .intro{
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width:767px){
+    .intro{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 413px){
+    .intro{
+        grid-template-columns: 100%;
+    }
+}
