@@ -7,3 +7,9 @@
     padding-left: 58px;
     padding-right: 20px;
 }
+
+@media screen and (max-width: 799px) {
+    .form__text{
+        max-width: 500px;
+    }
+}
