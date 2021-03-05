@@ -5,6 +5,7 @@
   height: 87%;
 
   object-fit: cover;
+  cursor: pointer;
 }
 
 .media__video:focus {
