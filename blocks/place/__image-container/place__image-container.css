@@ -1,0 +1,11 @@
+.place__image-container {
+  position: relative;
+
+  /* Танцы с бубном мод */
+  /* ОНО РАБОТАЕТ */
+  padding-bottom: 41.7%;
+  width: 50%;
+  max-height: 464px;
+
+  overflow: hidden;
+}
