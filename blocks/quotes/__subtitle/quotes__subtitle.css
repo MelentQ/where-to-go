@@ -2,3 +2,8 @@
     margin-top:0;
     margin-bottom: 100px;
 }
+@media screen and (max-width: 733px){
+    .quotes__subtitle{
+        margin-bottom: 50px;
+    }
+}
