@@ -1,4 +1,6 @@
 .form__image{
+    display: block;
+    
     background-image: url(../../../images/airport-schedule.jpg);
     background-position: center;
     background-repeat: no-repeat;
