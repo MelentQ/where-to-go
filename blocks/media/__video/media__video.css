@@ -1,0 +1,10 @@
+.media__video {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+
+.media__video:focus {
+  outline: none;
+}
